@@ -2,6 +2,7 @@
 <head>
     <title>Dojo Fruit Store Assignment</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="static" type="img/img" href="{{ url_for('static',filename='img/') }}">
 </head>
 <body>
 
@@ -24,7 +25,12 @@
         <section class="jumbotron text-center">
           <div class="container">
             <h1 class="jumbotron-heading">Dojo Fruits</h1>
-            <p>Please figure out how to display the images here...</p>
+            <p>
+              <img src="/static/img/apple.png" alt="">
+              <img src="/static/img/blackberry.png" alt="">
+              <img src="/static/img/raspberry.png" alt="">
+              <img src="/static/img/strawberry.png" alt="">
+            </p>
 
             <p>
               <a href="/" class="btn btn-primary my-2">Go back</a>
